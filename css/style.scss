@@ -45,3 +45,29 @@ body {
   filter: blur(30px);
   opacity: 0.5;
 }
+
+.flashlight {
+  position: absolute;
+  bottom: -300px;
+  width: 100px;
+  z-index: 2;
+  left: 50px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.flashlight:hover {
+  bottom: -250px;
+}
+
+.hidden {
+  display: none;
+}
+
+.selected {
+  bottom: -200px;
+}
+
+.selected:hover {
+  bottom: -200px;
+}
