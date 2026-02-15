@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.hidden-elements {
+  height: inherit;
+  width: inherit;
+  mix-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  user-select: none;
+
+  h1 {
+    font-family: 'Comic Sans MS';
+    font-size: 60px;
+  }
+
+  img {
+    width: 600px;
+  }
+}
+
+.light {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  background-image: radial-gradient(
+    #ae69e2,
+    #ae80ff,
+    #8c6cff,
+    #765bff,
+    #9e00ff
+  );
+  filter: blur(30px);
+  opacity: 0.5;
+}
