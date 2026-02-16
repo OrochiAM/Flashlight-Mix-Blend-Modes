@@ -25,6 +25,7 @@ body {
 .hidden-elements h1 {
   font-family: "Comic Sans MS";
   font-size: 60px;
+  color: #fff;
 }
 .hidden-elements img {
   width: 600px;
